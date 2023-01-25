@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style-type: none;
+    box-sizing: border-box;
+    
+    
+}
+
+a
+{
+    text-decoration-style:none;
+    text-decoration-line: none;
+    color: black;
+}
+
+
+.header1
+{   
+    display: flex; 
+    justify-content: space-around;
+    background-color: grey;
+    font-weight: bold;
+    font-size: smaller;
+    
+}
+
+
+.header2
+{ 
+    display: flex; 
+    justify-content: left;
+    background-color: rgb(179, 179, 179);
+
+} 
+
+.header2a 
+{
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.header2a,.header2b,.header2c,.header2d {
+    margin: 8px;
+}
+
+
+
+.paginaPrincipal
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 4px black solid;
+    align-items: center;
+}
+
+.paginaPrincipal1 h1
+{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.paginaPrincipal2 h2
+{
+    font-size: 40px;
+}
+
+.paginaPrincipal4 button
+{
+        text-decoration:none;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 15px;
+        border: black solid 4px;
+        border-radius:35px;
+}
+
+.paginaPrincipal1,.paginaPrincipal2,.paginaPrincipal3
+{
+    padding: 5px;
+    margin: 1px;
+}
+
+
+
+
+.servicios
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 4px black solid;
+    align-items: center;
+}
+
+.servicios01
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.servicios02
+{
+    font-size: 40px;;
+}
+
+.servicios03
+{
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 25px;
+}
+
+.serviciosB
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+}
+
+.servicios04,.servicios05,.servicios06
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.utilitario
+{
+    display: flex;
+}
+
+.utilitario1A img
+{
+    size-adjust: 40px;
+    margin: 60px;
+}
+
+.utilitario1B
+{
+    display: flex;
+    flex-direction: column;
+    size: 40px;
+    width: 230px;
+    margin: 120px;
+}
+
+.utilitario1B2
+{
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.utilitario2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.utilitario2A
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.utilitario2B1
+
+{
+    margin: 5px;
+    align-self: center;
+    justify-content: center;
+}
+
+.utilitario2B2
+
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 5px;
+    align-self: center;
+}
+
+.utilitario3A
+
+{
+    margin: 25px;
+    align-self: center;
+}
+
+.utilitario3A button
+{
+        text-decoration:none;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 15px;
+        border: black solid 4px;
+        border-radius:35px;
+}
+
+.imagenesClientes
+{
+    margin: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloClientes
+{
+    margin: 10px;
+    font-weight: bold;
+    text-decoration-line: underline;
+    align-items: center;
+    justify-content: center;
+}
+.imagenesClientes img
+{
+    width: 250px;
+}
+
+.tituloSocios h1,h3
+{
+    margin: 20px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imagenesPartners
+{
+    display: flex;
+    width: 750px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenesPartners1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.imagenesPartners2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.ingresoEnvio button
+{
+    text-decoration:none;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 5px;
+    border: black solid 4px;
+    border-radius:25px;
+}
+
+
+.footerPrincipal
+{   
+    display: flex;
+    width: 100%; 
+    background-color: rgb(179, 179, 179);
+
+}
+
+.footerPrincipal1
+{   width: 350px;
+    margin: 15px;
+
+}
+
+.footerPrincipal2
+{   width: 150px;
+    margin: 15px;
+    
+}
+
+.footerPrincipal3
+{   width: 150px;
+    margin: 15px;
+    
+}
+
+.footerPrincipal4
+{   width: 150px;
+    margin: 15px;
+    font-weight: bold;
+    
+}
+
+
+
+
+.footer1
+{
+    display: flex;
+    justify-content: center;
+    background-color: gray
+  
+}
+
+
+.footer2
+{   display: flex; 
+    justify-content: center;
+    background-color: black;
+    color: white;
+
+}
+
+.img-logo
+{
+    width: 150px;
+
+}
+
