@@ -1,0 +1,35 @@
+
+/* Enlaces */
+
+a {
+    text-decoration-style: none;
+    text-decoration-line: none;
+    color: black;
+}
+
+/* hover y animacion WP */
+
+.header a:hover,
+a:active {
+    background-color: black;
+    color: white;
+}
+
+.footerPrincipal a:hover,
+a:active {
+    background-color: black;
+    color: white;
+}
+
+.footer1 a:hover,
+a:active {
+    background-color: black;
+    color: white;
+}
+
+
+
+.img-logo {
+   
+    width: 150px;
+}

@@ -1,473 +1,353 @@
+@charset "UTF-8";
+/* Variables */
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    list-style-type: none;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow", sans-serif;
+  list-style-type: none;
+  box-sizing: border-box; }
 
-
-}
-
+/* Secciones */
+/* Enlaces */
 a {
-    text-decoration-style: none;
-    text-decoration-line: none;
-    color: black;
-}
+  text-decoration-style: none;
+  text-decoration-line: none;
+  color: black; }
 
 /* hover y animacion WP */
-
 .header a:hover,
 a:active {
-    background-color: black;
-    color: white;
-}
+  background-color: black;
+  color: white; }
 
 .footerPrincipal a:hover,
 a:active {
-    background-color: black;
-    color: white;
-}
+  background-color: black;
+  color: white; }
 
 .footer1 a:hover,
 a:active {
-    background-color: black;
-    color: white;
-}
+  background-color: black;
+  color: white; }
 
+.img-logo {
+  width: 150px; }
+
+/* Header */
 .header1 {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    background-color: grey;
-    font-weight: bold;
-
-
-}
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: grey;
+  font-weight: bold; }
 
 .header1a {
-    font-weight: bold;
-    margin-right: 25px;
-    margin-left: 10px;
-
-}
+  font-weight: bold;
+  margin-right: 25px;
+  margin-left: 10px; }
 
 .header1b {
-    font-weight: bold;
-    margin-left: 10px;
-    font-size: smaller;
-
-}
-
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: smaller; }
 
 .header2 {
-    display: flex;
-    justify-content: left;
-    background-color: rgb(179, 179, 179);
-
-}
+  display: flex;
+  justify-content: left;
+  background-color: #b3b3b3; }
 
 .header2a {
-    font-weight: bold;
-    margin-right: 15px;
-}
+  font-weight: bold;
+  margin-right: 15px; }
 
 .header2a,
 .header2b,
 .header2c,
 .header2d {
-    margin: 8px;
-}
+  margin: 8px; }
 
 /* Responsive de header */
 @media (max-width: 426px) {
+  .header1 {
+    justify-content: space-between;
+    padding: 10px; }
+  .header2 {
+    justify-content: space-between;
+    padding: 5px; }
+  .header2a {
+    justify-content: space-between;
+    padding-right: 20vw; } }
 
-    .header1 {
-        justify-content: space-between;
-        padding: 10px;
-
-
-    }
-
-    .header2 {
-        justify-content: space-between;
-        padding: 5px;
-
-    }
-
-    .header2a {
-        justify-content: space-between;
-        padding-right: 20vw;
-
-    }
-
-}
-
-
+/* Pagina principal */
 .paginaPrincipal {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    border: 4px black solid;
-    align-items: center;
-}
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 4px black solid;
+  align-items: center; }
 
 .paginaPrincipal1 h1 {
-    font-size: 100px;
-    font-weight: bold;
-}
+  font-size: 100px;
+  font-weight: bold; }
 
 .paginaPrincipal2 h2 {
-    font-size: 40px;
-}
-
+  font-size: 40px; }
 
 .paginaPrincipal3 img {
-
-    width: 100%;
-
-}
-
+  width: 100%; }
 
 .paginaPrincipal4 button {
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 20px;
-    padding: 15px;
-    border: black solid 4px;
-    border-radius: 35px;
-}
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 15px;
+  border: black solid 4px;
+  border-radius: 35px; }
 
 .paginaPrincipal1,
 .paginaPrincipal2,
 .paginaPrincipal3 {
-    padding: 5px;
-    margin: 1px;
-}
-
+  padding: 5px;
+  margin: 1px; }
 
 /* Responsive de pagina principal */
 @media (max-width: 769px) {
+  .paginaPrincipal {
+    padding: 5px; }
+  .paginaPrincipal1 h1 {
+    font-size: 45px; }
+  .paginaPrincipal2 {
+    font-size: 15px;
+    text-align: center;
+    padding: 3px; }
+  .paginaPrincipal3 img {
+    width: 100%;
+    max-width: 800px; } }
 
-    .paginaPrincipal {
-        padding: 5px;
-    }
-
-    .paginaPrincipal1 h1 {
-        font-size: 45px;
-    }
-
-    .paginaPrincipal2 {
-        font-size: 15px;
-        text-align: center;
-        padding: 3px;
-    }
-
-    .paginaPrincipal3 img {
-
-        width: 100%;
-        max-width: 800px;
-
-    }
-
-
-}
-
-
+/* Servicios */
 .servicios {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    border: 4px black solid;
-    align-items: center;
-}
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 4px black solid;
+  align-items: center; }
 
 .servicios01 {
-    font-size: 50px;
-    font-weight: bold;
-}
+  font-size: 50px;
+  font-weight: bold; }
 
 .servicios02 {
-    font-size: 40px;
-    ;
-}
+  font-size: 40px; }
 
 .servicios03 {
-    font-size: 20px;
-    font-weight: lighter;
-    padding: 25px;
-}
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 25px; }
 
 .serviciosB {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-
-}
+  display: flex;
+  flex-direction: row;
+  padding: 10px; }
 
 .servicios04,
 .servicios05,
 .servicios06 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid black;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black; }
 
+/* Css de Utilitario REUTILIZADO para auto y moto */
 .utilitario {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .utilitario1A img {
-
-    margin: 30px;
-}
+  margin: 30px;
+  width: 650px; }
 
 .utilitario1B {
-    display: flex;
-    flex-direction: column;
-    size: 40px;
-    width: 200px;
-    margin: 30px;
-}
+  display: flex;
+  flex-direction: column;
+  size: 40px;
+  width: 200px;
+  margin: 30px; }
 
 .utilitario1B2 {
-    margin: 10px;
-    margin-left: 0px;
-}
+  margin: 10px;
+  margin-left: 0px; }
 
 .utilitario2 {
-    display: flex;
-    flex-direction: column;
-}
+  display: flex;
+  flex-direction: column; }
 
 .utilitario2A {
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-}
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px; }
 
 .utilitario2B1 {
-    margin: 5px;
-    align-self: center;
-    justify-content: center;
-}
+  margin: 5px;
+  align-self: center;
+  justify-content: center; }
 
 .utilitario2B2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    margin: 5px;
-    align-self: center;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 5px;
+  align-self: center; }
 
 .utilitario3A {
-    margin: 25px;
-    align-self: center;
-}
+  margin: 25px;
+  align-self: center; }
 
 .utilitario3A button {
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 20px;
-    padding: 15px;
-    border: black solid 4px;
-    border-radius: 35px;
-}
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 15px;
+  border: black solid 4px;
+  border-radius: 35px; }
 
 /* Responsive de utilitario */
 @media (max-width: 769px) {
-
-    .utilitario1A img {
-        width: 450px;
-
-    }
-
-}
+  .utilitario1A img {
+    width: 450px; } }
 
 /* Responsive de utilitario */
 @media (max-width: 426px) {
+  .utilitario1A img {
+    display: none; }
+  .utilitario1B {
+    width: 319px; }
+  .utilitario3A button {
+    font-size: 15px;
+    padding: 10px; }
+  .utilitario2B1 {
+    display: none; } }
 
-    .utilitario1A img {
-        display: none;
-    }
+/* Clientes */
+.imagenesClientes {
+  margin: 60px;
+  align-items: center;
+  justify-content: center; }
 
-    .utilitario1B {
-        width: 319px;
-    }
+.tituloClientes {
+  margin: 10px;
+  font-weight: bold;
+  text-decoration-line: underline;
+  align-items: center;
+  justify-content: center; }
 
-    .utilitario3A button {
-      
-        font-size: 15px;
-        padding: 10px;
-    
-    }
+.imagenesClientes img {
+  width: 250px; }
 
-    .utilitario2B1 {
-        display: none;
-    }
+/* Socios */
+.tituloSocios h1,
+h3 {
+  margin: 20px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center; }
 
-}
+.imagenesPartners {
+  display: flex;
+  width: 750px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center; }
 
+.imagenesPartners1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px; }
 
+.imagenesPartners2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px; }
 
-    .imagenesClientes {
-        margin: 60px;
-        align-items: center;
-        justify-content: center;
-    }
+/* Ingreso */
+.ingresoEnvio button {
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 5px;
+  border: black solid 3px;
+  border-radius: 15px;
+  margin: 10px; }
 
-    .tituloClientes {
-        margin: 10px;
-        font-weight: bold;
-        text-decoration-line: underline;
-        align-items: center;
-        justify-content: center;
-    }
+.loginPrincipal {
+  padding: 15px; }
 
-    .imagenesClientes img {
-        width: 250px;
-    }
+/* Footer */
+.footerPrincipal {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 180px;
+  padding: 5px;
+  background-color: #b3b3b3; }
 
-    .tituloSocios h1,
-    h3 {
-        margin: 20px;
-        font-weight: bold;
-        align-items: center;
-        justify-content: center;
-    }
+.footerPrincipal1 {
+  margin: 10px; }
 
+.footerPrincipal1a {
+  margin: 0px; }
 
-    .imagenesPartners {
-        display: flex;
-        width: 750px;
-        margin: 10px;
-        align-items: center;
-        justify-content: center;
-    }
+.footerPrincipal2 {
+  width: 15%;
+  margin: 10px; }
 
-    .imagenesPartners1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 10px;
-    }
+.footerPrincipal3 {
+  width: 15%;
+  margin: 10px; }
 
-    .imagenesPartners2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 10px;
-    }
+.footerPrincipal4 {
+  width: 15%;
+  margin: 10px;
+  font-weight: bold; }
 
-    .ingresoEnvio button {
-        text-decoration: none;
-        font-weight: 300;
-        font-size: 20px;
-        padding: 5px;
-        border: black solid 4px;
-        border-radius: 25px;
-    }
+.footerPrincipal4 a {
+  font-weight: lighter; }
 
+.footer1 {
+  display: flex;
+  justify-content: center;
+  background-color: gray; }
 
-    .footerPrincipal
-    {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        height: 180px;
-        padding: 5px;
-        background-color: rgb(179, 179, 179);
+.footer2 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white; }
 
-    }
+/* Responsive Footer */
+@media (max-width: 767px) {
+  .footerPrincipal1 {
+    display: none; }
+  .footerPrincipal2 .footerPrincipal3 .footerPrincipal4 {
+    font-size: smaller;
+    font-weight: bold 200; } }
 
-    .footerPrincipal1 {
-        margin: 10px;
-    }
-
-    .footerPrincipal1a {
-        margin: 0px;
-    }
-
-    .footerPrincipal2 {
-        width: 15%;
-        margin: 10px;
-
-    }
-
-    .footerPrincipal3 {
-        width: 15%;
-        margin: 10px;
-
-    }
-
-    .footerPrincipal4 {
-        width: 15%;
-        margin: 10px;
-        font-weight: bold;
-
-    }
-
-    .footer1 {
-        display: flex;
-        justify-content: center;
-        background-color: gray
-    }
-
-
-    .footer2 {
-        display: flex;
-        justify-content: center;
-        background-color: black;
-        color: white;
-
-    }
-
-    /* Responsive Footer */
-
-    @media (max-width: 767px) {
-
-
-        .footerPrincipal1 {
-            display: none;
-
-
-        }
-
-        .footerPrincipal2 .footerPrincipal3 .footerPrincipal4 {
-            font-size: smaller;
-            font-weight: bold 200;
-
-        }
-
-    }
-
-    /* Correccion en dispositivos pequeños */
-
-    @media (max-width: 426px) {
-
-
-
-        .footer2 {
-            font-size: smaller;
-        }
-
-        .paginaPrincipal4 button {
-
-            font-weight: 600;
-            font-size: 11px;
-            padding: 10px;
-            border: black solid 2px;
-
-        }
-
-    }
-
-    .img-logo {
-        width: 150px;
-    }
+/* Correccion en dispositivos pequeños */
+@media (max-width: 426px) {
+  .footer2 {
+    font-size: smaller; }
+  .paginaPrincipal4 button {
+    font-weight: 600;
+    font-size: 11px;
+    padding: 10px;
+    border: black solid 2px; } }
