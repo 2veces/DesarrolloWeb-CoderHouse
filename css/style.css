@@ -40,7 +40,7 @@ a:active {
   display: flex;
   justify-content: left;
   align-items: center;
-  background-color: grey;
+  background-color: #416788;
   font-weight: bold; }
 
 .header1a {
@@ -53,10 +53,13 @@ a:active {
   margin-left: 10px;
   font-size: smaller; }
 
+.header1a a, .header1b a {
+  font-family: "Lora", serif; }
+
 .header2 {
   display: flex;
   justify-content: left;
-  background-color: #b3b3b3; }
+  background-color: #7389AE; }
 
 .header2a {
   font-weight: bold;
@@ -86,7 +89,8 @@ a:active {
   flex-direction: column;
   padding: 20px;
   border: 4px black solid;
-  align-items: center; }
+  align-items: center;
+  background-color: #B5BAD0; }
 
 .paginaPrincipal1 h1 {
   font-size: 100px;
@@ -132,7 +136,8 @@ a:active {
   flex-direction: column;
   padding: 10px;
   border: 4px black solid;
-  align-items: center; }
+  align-items: center;
+  background-color: #B5BAD0; }
 
 .servicios01 {
   font-size: 50px;
@@ -180,25 +185,29 @@ a:active {
   .servicios01, .servicios02, .servicios03 {
     text-align: center; }
   .servicios04, .servicios05, .servicios06, img {
-    width: 90%;
+    width: 100%;
     overflow: hidden; } }
 
 /* Css de Utilitario REUTILIZADO para auto y moto */
 .utilitario {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  background-color: #B5BAD0;
+  margin: 0px; }
 
 .utilitario1A img {
-  margin: 30px;
-  width: 650px; }
+  margin: 10px;
+  width: 650px;
+  max-height: 400px;
+  object-fit: cover; }
 
 .utilitario1B {
   display: flex;
   flex-direction: column;
   size: 40px;
-  width: 200px;
-  margin: 30px; }
+  width: 400px;
+  margin: 20px; }
 
 .utilitario1B2 {
   margin: 10px;
@@ -211,10 +220,10 @@ a:active {
 .utilitario2A {
   display: flex;
   flex-direction: column;
-  margin-top: 25px; }
+  margin-top: 10px; }
 
 .utilitario2B1 {
-  margin: 5px;
+  margin-top: 7px;
   align-self: center;
   justify-content: center; }
 
@@ -226,7 +235,7 @@ a:active {
   align-self: center; }
 
 .utilitario3A {
-  margin: 25px;
+  margin: 20px;
   align-self: center; }
 
 .utilitario3A button {
@@ -240,7 +249,7 @@ a:active {
 /* Responsive de utilitario */
 @media (max-width: 769px) {
   .utilitario1A img {
-    width: 450px; } }
+    width: 400px; } }
 
 /* Responsive de utilitario */
 @media (max-width: 426px) {
@@ -266,21 +275,23 @@ a:active {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   grid-template-rows: auto auto;
-  gap: 15px 15px;
-  align-items: center; }
+  align-items: center;
+  justify-content: cover;
+  background-color: white;
+  margin-top: 15px; }
 
 .grid-container img {
   max-width: 170px;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  object-fit: cover; }
 
 /* Responsive de clientes */
 @media (max-width: 1140px) {
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto;
-    gap: 10px 10px; }
+    grid-template-rows: auto auto auto; }
   .grid-container img {
     max-width: 130px; } }
 
@@ -288,8 +299,7 @@ a:active {
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    gap: 10px 10px; }
+    grid-template-rows: auto auto auto auto; }
   .grid-container img {
     max-width: 130px; } }
 
@@ -297,10 +307,12 @@ a:active {
   .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto auto auto;
-    gap: 10px 10px; }
+    grid-template-rows: auto auto auto auto auto auto; }
   .grid-container img {
-    max-width: 100px; }
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center; }
   .tituloClientes h1, h2 {
     font-size: medium;
     text-decoration-line: none; } }
@@ -326,14 +338,18 @@ h3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 10px; }
+  margin: 10px;
+  background-color: #E0E0E2;
+  border: 1px black solid; }
 
 .imagenesPartners2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 10px; }
+  margin: 10px;
+  background-color: #E0E0E2;
+  border: 1px black solid; }
 
 /* Responsive de servicios */
 @media (max-width: 1210px) {
@@ -353,6 +369,9 @@ h3 {
     margin: 0px; } }
 
 /* Ingreso */
+.loginPrincipal {
+  background-color: #B5BAD0; }
+
 .ingresoEnvio button {
   text-decoration: none;
   text-align: center;
@@ -370,11 +389,12 @@ h3 {
 /* Footer */
 .footerPrincipal {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   height: 180px;
-  padding: 5px;
-  background-color: #b3b3b3; }
+  padding: 10px;
+  background-color: #E0E0E2;
+  border-top: 2px black solid; }
 
 .footerPrincipal1 {
   margin: 10px; }
@@ -401,12 +421,15 @@ h3 {
 .footer1 {
   display: flex;
   justify-content: center;
-  background-color: gray; }
+  background-color: #7389AE; }
+
+.footer1 a {
+  font-family: "Lora", serif; }
 
 .footer2 {
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: #416788;
   color: white; }
 
 /* Responsive Footer */
@@ -426,3 +449,31 @@ h3 {
     font-size: 11px;
     padding: 10px;
     border: black solid 2px; } }
+
+/* correcciones bootstrap */
+.headerZ ul {
+  padding-left: 0rem; }
+
+.footerPrincipal4z ol {
+  padding-left: 0rem; }
+
+.footerPrincipal4z {
+  width: 15%;
+  margin: 10px;
+  font-weight: bold; }
+
+.footerPrincipal4z a {
+  font-weight: lighter; }
+
+.tituloFaq {
+  margin-left: 15px; }
+
+.footerPrincipalZ {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+  background-color: #E0E0E2;
+  border-top: 2px black solid;
+  line-height: normal; }

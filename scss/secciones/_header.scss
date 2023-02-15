@@ -5,9 +5,8 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    background-color: grey;
+    background-color: $azul-oscuro;
     font-weight: bold;
-
 
 }
 
@@ -25,11 +24,14 @@
 
 }
 
+.header1a a, .header1b a {
+    font-family: $typo-principal;
+}
 
 .header2 {
     display: flex;
     justify-content: left;
-    background-color: rgb(179, 179, 179);
+    background-color: $azul-claro;
 
 }
 

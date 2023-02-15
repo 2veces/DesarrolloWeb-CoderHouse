@@ -6,21 +6,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: $gris;
+    margin: 0px;
  
 }
 
+
 .utilitario1A img {
 
-    margin: 30px;
+    margin: 10px;
     width: 650px;
+    max-height: 400px;
+    object-fit: cover;
 }
 
 .utilitario1B {
     display: flex;
     flex-direction: column;
     size: 40px;
-    width: 200px;
-    margin: 30px;
+    width: 400px;
+    margin: 20px;
 }
 
 .utilitario1B2 {
@@ -36,11 +41,11 @@
 .utilitario2A {
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .utilitario2B1 {
-    margin: 5px;
+    margin-top: 7px;
     align-self: center;
     justify-content: center;
 }
@@ -54,7 +59,7 @@
 }
 
 .utilitario3A {
-    margin: 25px;
+    margin: 20px;
     align-self: center;
 }
 
@@ -71,7 +76,7 @@
 @media (max-width: 769px) {
 
     .utilitario1A img {
-        width: 450px;
+        width: 400px;
 
     }
 

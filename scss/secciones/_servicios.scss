@@ -1,12 +1,15 @@
 
 /* Servicios */
 
+
+
 .servicios {
     display: flex;
     flex-direction: column;
     padding: 10px;
     border: 4px black solid;
     align-items: center;
+    background-color: $gris;
 }
 
 .servicios01 {
@@ -78,7 +81,7 @@
 
     .servicios04, .servicios05, .servicios06, img {
 
-        width: 90%;
+        width: 100%;
         overflow: hidden;
 
     }

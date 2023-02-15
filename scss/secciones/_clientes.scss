@@ -13,8 +13,11 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     grid-template-rows: auto auto;
-    gap: 15px 15px;
     align-items: center;
+    justify-content: cover;
+    background-color: white;
+    margin-top: 15px
+   
 
 }
 
@@ -22,7 +25,9 @@
     max-width: 170px;
     align-items: center;
     justify-content: center;
-    ;
+    object-fit: cover;
+    
+    
 }
 
 /* Responsive de clientes */
@@ -32,7 +37,7 @@
         display: grid;
         grid-template-columns: auto auto auto auto;
         grid-template-rows: auto auto auto;
-        gap: 10px 10px;
+
     
     }
     .grid-container img {
@@ -48,7 +53,6 @@
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto auto auto;
-        gap: 10px 10px;
     
     }
     .grid-container img {
@@ -62,11 +66,14 @@
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto auto auto auto;
-        gap: 10px 10px;
+
     
     }
     .grid-container img {
-        max-width: 100px;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
     }
     .tituloClientes h1, h2 {
         font-size: medium;
