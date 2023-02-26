@@ -1,13 +1,23 @@
 
 /* Css de Utilitario REUTILIZADO para auto y moto */
 
+.mainmain {
+    display: flex;
+    min-height: 90vh;
+    max-width: 100%;
+    justify-content: center;
+    background-color: $gris;
+    align-items: center;
+    border: 4px black solid;
+    align-content: center;
+}
 
 .utilitario {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: $gris;
-    margin: 0px;
+  
  
 }
 
@@ -23,15 +33,22 @@
 .utilitario1B {
     display: flex;
     flex-direction: column;
+    align-items: center;
     size: 40px;
-    width: 400px;
+    width: 300px;
     margin: 20px;
 }
 
 .utilitario1B2 {
     margin: 10px;
-    margin-left: 0px;
+
 }
+
+ .utilitario1B3 {
+    text-align: center;
+    margin: 10px;
+    max-width: 95%;
+ }
 
 .utilitario2 {
     display: flex;

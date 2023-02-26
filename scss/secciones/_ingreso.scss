@@ -3,9 +3,7 @@
 
 /* Ingreso */
 
-.loginPrincipal {
-    background-color: $gris;
-}
+
 
 .ingresoEnvio button {
     text-decoration: none;
@@ -21,7 +19,30 @@
 }
 
 .loginPrincipal {
-
-    padding: 15px;
+    background-color: $gris;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
+.loginPrincipal h1, h2 {
+    font-size: xx-large;
+    padding: 5px;
+    text-align: left;
+    
+}
+
+.loginPrincipal h5{
+    font-size: large;
+    padding: 2px;
+    
+}
+
+.loginPrincipal div {
+
+    margin: 5px;
+    padding: 2px;
+    text-align: left;
+    
+}

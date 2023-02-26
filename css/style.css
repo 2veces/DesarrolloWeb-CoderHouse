@@ -32,6 +32,15 @@ a:active {
   background-color: black;
   color: white; }
 
+.servicios04, .servicios05, .servicios06, a:hover {
+  color: white; }
+
+.serviciosB img:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d; }
+
 .img-logo {
   width: 150px; }
 
@@ -88,7 +97,6 @@ a:active {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  border: 4px black solid;
   align-items: center;
   background-color: #B5BAD0; }
 
@@ -189,12 +197,21 @@ a:active {
     overflow: hidden; } }
 
 /* Css de Utilitario REUTILIZADO para auto y moto */
+.mainmain {
+  display: flex;
+  min-height: 90vh;
+  max-width: 100%;
+  justify-content: center;
+  background-color: #B5BAD0;
+  align-items: center;
+  border: 4px black solid;
+  align-content: center; }
+
 .utilitario {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #B5BAD0;
-  margin: 0px; }
+  background-color: #B5BAD0; }
 
 .utilitario1A img {
   margin: 10px;
@@ -205,13 +222,18 @@ a:active {
 .utilitario1B {
   display: flex;
   flex-direction: column;
+  align-items: center;
   size: 40px;
-  width: 400px;
+  width: 300px;
   margin: 20px; }
 
 .utilitario1B2 {
+  margin: 10px; }
+
+.utilitario1B3 {
+  text-align: center;
   margin: 10px;
-  margin-left: 0px; }
+  max-width: 95%; }
 
 .utilitario2 {
   display: flex;
@@ -265,7 +287,7 @@ a:active {
 
 /* Clientes */
 .tituloClientes {
-  margin: 10px;
+  margin: 15px;
   font-weight: bold;
   text-decoration-line: underline;
   align-items: center;
@@ -278,7 +300,8 @@ a:active {
   align-items: center;
   justify-content: cover;
   background-color: white;
-  margin-top: 15px; }
+  margin-top: 15px;
+  margin: 10px; }
 
 .grid-container img {
   max-width: 170px;
@@ -369,9 +392,6 @@ h3 {
     margin: 0px; } }
 
 /* Ingreso */
-.loginPrincipal {
-  background-color: #B5BAD0; }
-
 .ingresoEnvio button {
   text-decoration: none;
   text-align: center;
@@ -384,7 +404,25 @@ h3 {
   margin: 10px; }
 
 .loginPrincipal {
-  padding: 15px; }
+  background-color: #B5BAD0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; }
+
+.loginPrincipal h1, h2 {
+  font-size: xx-large;
+  padding: 5px;
+  text-align: left; }
+
+.loginPrincipal h5 {
+  font-size: large;
+  padding: 2px; }
+
+.loginPrincipal div {
+  margin: 5px;
+  padding: 2px;
+  text-align: left; }
 
 /* Footer */
 .footerPrincipal {
@@ -451,8 +489,33 @@ h3 {
     border: black solid 2px; } }
 
 /* correcciones bootstrap */
+.Faqq1 {
+  display: flex;
+  flex-direction: column;
+  min-height: 75vh;
+  background-color: #B5BAD0;
+  border: 4px black solid;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px; }
+
+.accordion-button {
+  background-color: #E0E0E2; }
+
+.accordion-collapse {
+  background-color: #B5BAD0; }
+
 .headerZ ul {
   padding-left: 0rem; }
+
+.tituloFaq {
+  margin: 15px;
+  padding: 10px; }
+
+.tituloFaq h1, h4 {
+  text-align: center;
+  margin-bottom: 0rem;
+  font-weight: 900; }
 
 .footerPrincipal4z ol {
   padding-left: 0rem; }
@@ -464,9 +527,6 @@ h3 {
 
 .footerPrincipal4z a {
   font-weight: lighter; }
-
-.tituloFaq {
-  margin-left: 15px; }
 
 .footerPrincipalZ {
   display: flex;

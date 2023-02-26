@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    
-<!-- Encabezado 1 -->
+
+    <!-- Encabezado 1 -->
 
     <header>
         <nav class="header">
@@ -51,95 +51,65 @@
     </header>
 
     <!-- Contenido principal -->
-    <main>
-        <div class="loginPrincipal">
-            <div>
-                <div class="menuIngresar">
-                    <h1>Accede a tu cuenta</h1>
-                    <form action="results.html" method="GET" enctype="#">
-                        <div>
-                            <label for="name">Usuario</label>
-                            <input type="text" name="name" id="Usuario" required>
-                        </div>
-                        <div>
-                            Contraseña
-                            <input type="password" name="password" required>
-                        </div>
-                        <div class="ingresoEnvio">
-                        <button type="submit">Ingresar</button>
-                        </div>
-                    </form>
-                </div>
-                <br>
-                <H2>Unite al equipo Fleterico!</H2>
-                <br>
+    <main class="loginPrincipal">
+        <h1>Accede a tu cuenta</h1>
                 <form action="results.html" method="GET" enctype="#">
-                    <div>
-                        <label for="name">Nombre</label>
-                        <input type="text" name="name" id="name" required>
-                    </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" required>
-                    </div>
-                    <div>
-                        <label for="phone">Celular</label>
-                        <input type="tel" name="phone" id="celular">
-                    </div>
-                    <div>
-                        <label for="age">Edad</label>
-                        <input type="number" name="age" id="Edad" min="18" max="70">
-                    </div>
-                    <div>
-                        <label for="date">Fecha de nacimiento</label>
-                        <input type="date" name="date" id="Fecha" min="2005-01-01">
-                    </div>
-                    <div>
-                        Registro de conducir valido:
-                        <div>
-                            <label for="Moto">Moto</label>
-                            <input type="checkbox" name="Moto" id="Moto">
-                        </div>
-                        <div>
-                            <label for="Auto">Automovil</label>
-                            <input type="checkbox" name="Auto" id="Auto">
-                        </div>
-                        <div>
-                            <label for="Utilitario">Utilitario</label>
-                            <input type="checkbox" name="Utilitario" id="Utilitario">
-                        </div>
-                    </div>
-                    <div>
-                        Disponibilidad
-                        <div>
-                            <label for="part">Part time</label>
-                            <input type="radio" name="Disponibilidad" id="part" value="part">
-                        </div>
-                        <div>
-                            <label for="full">Full time</label>
-                            <input type="radio" name="Disponibilidad" id="Full" value="full">
-                        </div>
-                    </div>
-                    </div>
-                    <div>
-                        <label for="bio">Contanos un poco de vos</label>
-                        <br>
-                        <textarea id="bio" name="bio"></textarea>
-                    </div>
-                    <div>
-                        <label for="file">Adjunta tu CV</label>
-                        <br>
-                        <input id="file" type="file" name="CV">
-                    </div>
-                    <div>
-                    </div>
-                    <div class="ingresoEnvio">
-                    <button type="submit">Enviar!</button>
-                    </div>
+                <div>
+                    <input type="text" name="name" id="Usuario" placeholder="Usuario" required>
+                </div>
+                <div>
+                    <input type="password" name="password" placeholder="Contraseña" required>
+                </div>
+                <div class="ingresoEnvio">
+                <button type="submit">Ingresar</button>
                 </form>
 
-            </div>
+        <H2>Unite al equipo Fleterico!</H2>
+
+                <form action="results.html" method="GET" enctype="#">
+                <div>
+                    <input type="text" name="name" id="name" placeholder="Nombre" required>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <input type="tel" name="phone" id="celular" placeholder="Celular">
+                </div>
+                <div>
+                    <input type="date" name="date" id="Fecha" placeholder="Fecha de nacimiento" min="2005-01-01">
+                    <input type="number" name="age" id="Edad" placeholder="Edad" min="18" max="70">
+                </div>
+                <div>
+                    <h5>Registro de conducir valido:</h5>
+                    
+                        <label for="Moto">Moto</label>
+                        <input type="checkbox" name="Moto" id="Moto">
+                        <label for="Auto">Automovil</label>
+                        <input type="checkbox" name="Auto" id="Auto">
+                        <label for="Utilitario">Utilitario</label>
+                        <input type="checkbox" name="Utilitario" id="Utilitario">
+                </div>  
+                <div>
+                    <h5>Disponibilidad:</h5>
+                        <label for="part">Part time</label>
+                        <input type="radio" name="Disponibilidad" id="part" value="part">
+                        <label for="full">Full time</label>
+                        <input type="radio" name="Disponibilidad" id="Full" value="full">
+                </div>
+                <div>
+                <h5>Contanos un poco de vos:</h5>
+                <textarea id="bio" name="bio"></textarea>
+                </div>
+                <div>
+                <h5>Adjunta tu CV:</h5>
+                <input id="file" type="file" name="CV">
+                </div>
+        <div class="ingresoEnvio">
+            <button type="submit">Enviar!</button>
         </div>
+        </form>
+
     </main>
 
 
@@ -149,28 +119,28 @@
         <div class="footerPrincipal">
             <div>
                 <div class="footerPrincipal1">
-                        <h3 class="footerPrincipal1a">¿Comó podemos ayudarte?</h3>
-                        <ul>
-                            <li>
-                                <label for="name"></label>
-                                <input type="text" id="name" name="user_name" placeholder="Nombre" />
-                            </li>
-                            <li>
-                                <label for="mail"></label>
-                                <input type="email" id="mail" name="user_email" placeholder="Correo" />
-                            </li>
-                            <li>
-                                <label for="telefono"></label>
-                                <input type="tel" id="tel" name="phone" placeholder="Telefono" />
-                            </li>
-                            <li>
-                                <label for="msg"></label>
-                                <textarea id="msg" name="user_message" placeholder="Mensaje"></textarea>
-                            </li>
-                            <li class="button">
-                                <button type="submit">Enviar!</button>
-                            </li>
-                        </ul>
+                    <h3 class="footerPrincipal1a">¿Comó podemos ayudarte?</h3>
+                    <ul>
+                        <li>
+                            <label for="name"></label>
+                            <input type="text" id="name" name="user_name" placeholder="Nombre" />
+                        </li>
+                        <li>
+                            <label for="mail"></label>
+                            <input type="email" id="mail" name="user_email" placeholder="Correo" />
+                        </li>
+                        <li>
+                            <label for="telefono"></label>
+                            <input type="tel" id="tel" name="phone" placeholder="Telefono" />
+                        </li>
+                        <li>
+                            <label for="msg"></label>
+                            <textarea id="msg" name="user_message" placeholder="Tu duda o consulta"></textarea>
+                        </li>
+                        <li class="button">
+                            <button type="submit">Enviar!</button>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -195,7 +165,7 @@
                     </a>
                     <div>
                         <div>Toyota</div>
-                        <div>Mercado Libre</div>
+                        <div>Telecom</div>
                         <div>Syngenta</div>
                         <div>Clorox</div>
                     </div>

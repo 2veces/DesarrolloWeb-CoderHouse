@@ -7,6 +7,8 @@ a {
     color: black;
 }
 
+
+
 /* hover y animacion WP */
 
 .header a:hover,
@@ -25,6 +27,20 @@ a:active {
 a:active {
     background-color: black;
     color: white;
+}
+
+.servicios04, .servicios05, .servicios06, a:hover
+ {
+    color: white;
+
+}
+
+.serviciosB img:hover
+{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
 }
 
 
