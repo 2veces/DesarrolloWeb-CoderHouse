@@ -1,0 +1,8 @@
+Mejoras en el SEO:
+
+-Tamaño reducido de las imagenes
+-Texto alternativo (tag)
+-Utilizacion de metadatos
+-Cada pagina tiene un title y un h1
+-Compatibilidad en version mobile
+-Idioma colocado en español
